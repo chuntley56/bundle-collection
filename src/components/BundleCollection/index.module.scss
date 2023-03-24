@@ -1,0 +1,78 @@
+.storefront {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.bundleRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.bundleCard {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 20px;
+
+    & h3 {
+        color: #1a110c;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+
+    & .pricing {
+        color: #40a040;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+
+    & .compareAtPrice {
+        color: #afafaf;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: line-through;
+    }
+
+    & .image {
+        & img {
+            width: 250px;
+            max-width: 100%;
+        }
+    }
+
+    & .included {
+        font-size: 14px;
+
+        & .heading {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        & .product {
+            text-transform: capitalize;
+        }
+    }
+}
+
+.tagRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+    margin-bottom: 0.5rem;
+}
+
+.tag {
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
